@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*navbar*/
+.navbar {
+  margin-top: 15px;
+  width: 100%;
+  height: 100px;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-lists {
+  margin-left: 20px;
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-size: 20px;
+}
+
+li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+/*cart*/
+.cart {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+/*header*/
+.header {
+  background-image: url(images/ri_2.png);
+  background-size: cover;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/*header-title*/
+.shop-title {
+  margin-left: 20px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.shop-title h1 {
+  font-size: 100px;
+  font-weight: 200;
+}
+
+.shop-title p {
+  margin-top: 10px;
+  font-size: 25px;
+  width: 70%;
+  text-align: left;
+}
+
+.shop-now-btn {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 25%;
+  font-size: 20px;
+  text-align: center;
+  padding: 13px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow {
+  width: 20px;
+  height: 30px;
+  margin-right: 30px;
+}
+
+.shop-now-btn:hover {
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+/*products*/
+.products {
+  height: 700px;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.product-texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+}
+
+.product-cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card1 {
+  background-image: url(images/ri_3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 600px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card1 p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.card1:hover {
+  cursor: pointer;
+}
+
+.card2 {
+  background-image: url(images/ri_4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 600px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card2 p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.card2:hover {
+  cursor: pointer;
+}
+
+.card3 {
+  background-image: url(images/ri_5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 600px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card3 p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.card3:hover {
+  cursor: pointer;
+}
+
+/*discover*/
+.discover {
+  margin: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.discover-img img {
+  width: 800px;
+  height: 550px;
+}
+
+.discover-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.discover-head p {
+  font-size: 60px;
+}
+
+.discover-collection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.p {
+  font-size: 30px;
+}
+
+.shop-collection-btn {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 25%;
+  font-size: 20px;
+  text-align: center;
+  padding: 13px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-collection-btn:hover {
+  cursor: pointer;
+}
+
+/*brands*/
+.brands {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.brands img {
+  height: 100px;
+  width: 150px;
+}
+
+/*more-products*/
+.more-products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 10px;
+}
+
+.img {
+  height: 500px;
+  border-radius: 10px;
+}
+
+.more-products-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.more-products-head {
+  font-size: 60px;
+}
+
+.more-products-collection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.view-more-btn {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 25%;
+  font-size: 20px;
+  text-align: center;
+  padding: 13px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.view-more-btn:hover {
+  cursor: pointer;
+}
+
+/*subscribe*/
+.subscribe {
+  background-image: url(images/ri_1.png);
+  background-size: cover;
+  height: 1000px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.subscribe p {
+  width: 50%;
+  font-size: 100px;
+}
+
+.email {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 25%;
+  font-size: 20px;
+  text-align: center;
+  padding: 13px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*footer*/
+.footer {
+  padding: 20px;
+  background-color: rgb(222, 222, 222);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.links p {
+  font-size: 20px;
+}
+
+.links p:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.link1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.link2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.link3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.link4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.footer-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  text-align: center;
+}
